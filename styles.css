@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(238, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+a:link, a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.hero{
+    background: url('images/bg.jpg') no-repeat center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+
+    font-size:2em;
+}
+
+.hero-section h2{
+    margin-bottom: 0.25em;    
+}
+
+.btn {
+    text-decoration: none;
+    text-align:center;
+    background-color:rgb(255, 80, 32);
+    color:white;
+    border-radius: 5px;
+    padding: 0.5em 3em;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.menu-section{
+    padding: 2em 0; 
+    text-align: center;
+}
+
+.menu-section>h2{
+    margin-bottom: 1em;
+}
+
+.menu-grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item{
+    width: 400px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.menu-item>img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+.about-section{
+    text-align: center;
+    background-color: white;
+    padding:3em;
+}
+
+.contact-section{
+    text-align: center;
+    padding:2em;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
